@@ -33,7 +33,7 @@ jobs:
     - name: Update and clean
       run: |
         cd $GITHUB_WORKSPACE
-        sudo cp -rf sub-web/dist/* /
+        sudo cp -rf sub-web/dist/* $GITHUB_WORKSPACE
         sudo rm -rf sub-web
         
     - name: Add & Commit
