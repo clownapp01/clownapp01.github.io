@@ -17,7 +17,7 @@ jobs:
     - name: Update sub-web
       run: |
         sudo rm -rf sub-web
-        git clone https://github.com/Clown1i/sub-web.git
+        git clone https://github.com/clownapp01/sub-web.git
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
